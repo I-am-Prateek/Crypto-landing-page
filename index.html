@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prateek - Crypto Info</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">PRATEEK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#memecoins">MEMECOINS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light" href="#copyright">Copyright</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="left-content">
+      <h1>Unlock the Future of Finance with Crypto</h1>
+      <p>Explore the dynamic world of MemeCoins, Crypto Investments, and more!</p>
+      <a href="#" class="btn btn-primary">Start Your Journey</a>
+    </div>
+    <div class="right-image">
+      <img src="img/cry.jpeg" alt="Cryptocurrency">
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="news-section">
+    <div class="container">
+      <h2><b>Explore Crypto News</b></h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 news-card">
+          <img src="img/meme.PNG" alt="MemeCoin Update" class="news-image">
+          <h3>MemeCoin Update</h3>
+          <p>Stay updated with the latest news on MemeCoins and their market trends.</p>
+          <a href="#" class="btn btn-link">Read More</a>
+        </div>
+        <div class="col-xs-12 col-sm-4 news-card">
+          <img src="img/crash.jpg" alt="Market Crash" class="news-image">
+          <h3>Market Crash</h3>
+          <p>The latest market crash and its impact on global cryptocurrencies.</p>
+          <a href="#" class="btn btn-link">Read More</a>
+        </div>
+        <div class="col-xs-12 col-sm-4 news-card">
+          <img src="img/binance.jpg" alt="New Listing on Binance" class="news-image">
+          <h3>New Listing on Binance</h3>
+          <p>Find out which new coins are now available for trading on Binance.</p>
+          <a href="#" class="btn btn-link">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="copyright" class="footer">
+    <p>&copy; <span id="year"></span> Prateek. All rights reserved.</p>
+    <p>Disclaimer:
+      The content provided on this website is for informational purposes only and does not constitute financial, investment, or legal advice.
+      <br> Cryptocurrencies are highly volatile and speculative assets. You should conduct your own research and consult with a qualified financial advisor before making any investment decisions. <br>Crypto-Info is not responsible for any losses or damages resulting from the use of the information provided on this website.</p>
+  </footer>
+
+  <script>
+    // Update the year dynamically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
